@@ -1,5 +1,5 @@
 # Stroke-Based-Scene-Text-Erasing
-This is a PyTorch implemention of following paper:
+This repository is a PyTorch implemention of following paper:
 
 Stroke-Based Scene Text Erasing Using Synthetic Data for Training
 
