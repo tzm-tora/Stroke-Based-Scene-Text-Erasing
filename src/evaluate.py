@@ -249,20 +249,21 @@ def inference(generator, device, src_img_dir, src_txt_dir, save_path):
             else:
                 print('NOT RIGHT BBOX')
 
+#             cv2.namedWindow('img_clone', cv2.WINDOW_NORMAL)
+#             cv2.imshow('img_clone', img_clone)
+#             cv2.imshow('dst', dst)
+#             cv2.imshow('mask_img', mask_img)
+#             windows_name = f'part_{k}'
+#             cv2.imshow(windows_name, display)
+#         k += 1
+#         cv2.waitKey()
+#         for ii in range(k):
+#             cv2.destroyWindow(f'part_{ii}')                
+                
         # save image
         cv2.imwrite(os.path.join(save_path, img_idx+'.png'), dst)
 
-        # cv2.namedWindow('img_clone', cv2.WINDOW_NORMAL)
-        # cv2.imshow('img_clone', img_clone)
-        # cv2.imshow('dst', dst)
-        # cv2.imshow('mask_img', mask_img)
-        # windows_name = f'part_{k}'
-        # cv2.imshow(windows_name, display)
-        # # cv2.imshow('label_img', label_img)
-        # k += 1
-        # cv2.waitKey()
-        # for ii in range(k):
-        #     cv2.destroyWindow(f'part_{ii}')
+
 
 
 def quality_metric(img_path, label_path):
