@@ -1,0 +1,1 @@
+# Stroke-Based-Scene-Text-Erasing
