@@ -51,8 +51,5 @@ python test.py
 ```
 python eval.py
 ```
-
 ## Acknowledge
 We thank [tanimutomo](https://github.com/tanimutomo/partialconv) for the excellent code.
-
-
