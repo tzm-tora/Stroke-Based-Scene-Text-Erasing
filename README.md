@@ -1,16 +1,11 @@
 # Stroke-Based-Scene-Text-Erasing
 This repository is a PyTorch implemention of following paper:
-
 Stroke-Based Scene Text Erasing Using Synthetic Data for Training
 
 [arxiv](https://arxiv.org/abs/2104.11493)
 
 Zhengmi Tang, Tomo Miyazaki, Yoshihiro Sugaya, and Shinichiro Omachi.
-
 Graduate School of Engineering, Tohoku University.
-
-## Overview
-
 
 
 ## Requirements
@@ -26,15 +21,15 @@ opencv-python==4.5.1.48
 * perpare the training dataset root as:
 ```
 --train_set
-			|i_s
-				| 1.jpg
-				| 2.jpg
-			|mask_t
-      	| 1.png
-				| 2.png
-			|t_b
-      	| 1.jpg
-				| 2.jpg
+     |i_s
+        | 1.jpg
+        | 2.jpg
+     |mask_t
+        | 1.png
+        | 2.png
+     |t_b
+        | 1.jpg 
+        | 2.jpg
 ```
 * tune the training parameters in cfg.py. If you want to funetune the model, turn the flag of finetune and resume both in True.
 * run 
