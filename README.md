@@ -9,7 +9,8 @@ Zhengmi Tang, Tomo Miyazaki, Yoshihiro Sugaya, and Shinichiro Omachi.
 
 Graduate School of Engineering, Tohoku University.
 
-<img width="1000" alt="teaser" src="./fig/overview.png">
+<img width="500" alt="teaser" src="./fig/overview.png">
+
 ## Requirements
 ```
 torch==1.8.1
