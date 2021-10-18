@@ -11,7 +11,7 @@ Graduate School of Engineering, Tohoku University.
 
 ## Requirements
 ```
-torch==1.8.1
+PyTorch==1.8.1
 scikit_image==0.18.1
 tqdm==4.55.1
 torchvision==0.9.1
