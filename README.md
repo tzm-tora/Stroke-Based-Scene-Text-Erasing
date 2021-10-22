@@ -38,7 +38,7 @@ opencv-python==4.5.1.48
 python train.py
 ```
 ## Testing
-* perpare the format of testing data as  ./examples file shows. The names of txt files should be gt_img\_?.txt or res_img\_?.txt and the annotation of text bboxes should be in quadrilateral.
+* perpare the format of testing data as  ./examples file shows. The names of txt files should be gt_img\_?.txt or res_img\_?.txt and the annotation of text bboxes should be quadrilateral.
 * download our retrained [pretrained model](https://drive.google.com/drive/folders/1J4hyPksRbanksId7AQzgMK2ANJZNN3qz?usp=sharing). (Note that we retrained our model in a different preprocessing strategy of training data for better visual perception. best.pth for real-world data testing and best_syn.pth for synthetic data testing)
 * revise the `model_path`, `src_img_dir` and `src_txt_dir` with the right path in test.py
 * run 
