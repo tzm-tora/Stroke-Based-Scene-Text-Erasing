@@ -57,7 +57,7 @@ python eval.py
 If you find our method or code useful for your reserach, please cite:
 ```
 @article{StrokeErase2021tang,
-  author     ={Tang, Zhengmi and Miyazaki, Tomo and Sugaya, Yoshihiro and Omachi, Shinichiro.},
+  author     ={Tang, Zhengmi and Miyazaki, Tomo and Sugaya, Yoshihiro and Omachi, Shinichiro},
   journal    ={IEEE Transactions on Image Processing},
   title      ={Stroke-Based Scene Text Erasing Using Synthetic Data for Training},
   year       ={2021},
