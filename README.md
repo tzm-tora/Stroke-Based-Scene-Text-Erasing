@@ -62,7 +62,8 @@ If you find our method or code useful for your reserach, please cite:
   title      ={Stroke-Based Scene Text Erasing Using Synthetic Data for Training},
   year       ={2021},
   volume     ={30},
-  pages      ={9306-9320},}
+  pages      ={9306-9320}
+}
 ```
 
 
